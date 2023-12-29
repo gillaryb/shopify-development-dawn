@@ -1610,3 +1610,9 @@ a.product__text {
 .product-button--available:hover{
   background-color: #0968DA;
 }
+
+.product-stock--status{
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ed123e;
+}
