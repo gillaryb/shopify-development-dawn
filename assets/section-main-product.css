@@ -279,7 +279,7 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
-  background: red;
+
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -287,6 +287,8 @@ fieldset.product-form__input .form__label {
   --color-button-text: inherit;
   --alpha-button-background: 1;
 }
+
+
 
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
 .product-form__submit[disabled] + .shopify-payment-button .shopify-payment-button__button[disabled] {
@@ -1601,5 +1603,10 @@ a.product__text {
 }
 
 .product-button--available {
-  color: red;
+  color: black;
+  background-color: #5E8E3E;
+}
+
+.product-button--available:hover{
+  background-color: #0968DA;
 }
