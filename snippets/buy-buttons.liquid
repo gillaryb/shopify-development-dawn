@@ -96,6 +96,7 @@
           </button>
 
             <div id="variant-description">
+              {% assign selected_variant = product.selected_or_first_available_variant %}
               {% case selected_variant.title %}
                 {% when 'S' %}
                   これはSサイズです。
